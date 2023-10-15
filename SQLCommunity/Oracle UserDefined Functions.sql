@@ -72,3 +72,12 @@ end noe;
 select unique deptno,noe(deptno) "noe"from emp
 where noe(deptno)>3;
 
+
+
+MID(B185,1,2)
+
+=MID(B185,7,4)
+
+=MID(B185,4,2)
+
+=DATE(MID(B2,7,4),MID(B2,4,2),MID(B2,1,2))
